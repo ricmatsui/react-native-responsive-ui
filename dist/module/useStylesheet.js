@@ -1,0 +1,2 @@
+import*as _ from"lodash";import{mediaQuery}from"./MediaQuery";import useDimensions from"./useDimensions";export var getStylesheet=function getStylesheet(_ref,styles){var width=_ref.width,height=_ref.height;var selectedStyles=[];styles.forEach(function(style){return mediaQuery(style.query,width,height)?selectedStyles.push(style.style):undefined;});return _.merge.apply(null,selectedStyles);};export var useStylesheet=function useStylesheet(styles){var dimensions=useDimensions();return getStylesheet(dimensions,styles);};
+//# sourceMappingURL=useStylesheet.js.map
