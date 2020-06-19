@@ -1,6 +1,6 @@
 {
   "name": "react-native-responsive-ui",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Responsive UIs for React Native",
   "main": "dist/module/index.js",
   "repository": "https://github.com/wcandillon/react-native-responsive-ui",
